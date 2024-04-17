@@ -63,8 +63,16 @@ Exercise 3; Machine Learning Tutorial
    [10] Define neural network with the number of neurons in hidden layers and the activation function as arguments
    [11] Define neural network parameters, which will be dicided by the parameters on the headline
    [12] Plot the respective losses, which are generated.
-   [13] Save the model, whichs batch size gives the best performance for the model choosen. 
+   [13] Save the model, whichs batch size gives the best performance for the model choosen.
    [14] Evaluate the model on the test data, to give you a first overall look at the data.
    [15] Before the visualizations, the IC50 values on the test data has to be predicted
    [16] Visualize the predictions by plotting the predicted against the true IC50 values on the test set. This gives you all the needed information for this dataset.
+
+Exercise 5:
+   1. UBELIX is an HPC cluster that currently consists of about 320 compute nodes featuring round about 12k CPU cores and 160 GPUs and a software defined storage infrastructure providing about 3.5 PB of disk storage net. 
+      UBELIX is a heterogenous cluster, meaning UBELIX consists of different generations of compute nodes with different instruction sets. 
+   2. You have to request it on from the Universitiy and then get access from the Unibern. Getting access takes one day and you have to use it on your powershell. You need to be on the network of the University. 
+   3. First you have to login to the Cluster. For this you have to use a secure shell (SSH). To submit a job you first have to ensure that your files are in the correct directory. IF you need to copy files between your local computer and the cluster, you can use the secure copy comand scp. And to copy a file from the cluster to your local computer you have to run a UNIX-like OS. For a job script containing instructions for the scheduler. You have to define the resource requirements and specify the tasks to be executed. The submit your job to the scheduler using the sbatch command.
+   4. Only members of the Universitty have access and the access is primarily granted for researc haligned with the universitys interests. 
+   5. UBELIX provides an array of computational resources, which are already listet on 1.
 
