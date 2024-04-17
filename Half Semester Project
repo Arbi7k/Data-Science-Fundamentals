@@ -1,7 +1,7 @@
-### Half Semester Project
+# Half Semester Project
 ## Data Science Fundamentals
 
-# Exercise 2:
+### Exercise 2:
 1. Which packages are available for ML? Describe the pros and cons and document the availability.
    
    There are numerous machine learning packages available, some of the most popular ones include:
@@ -39,7 +39,7 @@
 10. What are some resources and tools available to help you learn and practice machine learning?
     Resources include online courses (e.g., Coursera, Udacity, edX), books (e.g., "Introduction to Statistical Learning" by James et al., "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Géron), MOOCs (e.g., fast.ai), and tutorials (e.g., Towards Data Science, Kaggle). Tools include Jupyter notebooks, Kaggle kernels, TensorFlow Playground, Google Colab, and various machine learning libraries mentioned earlier.
 
-# Exercise 3: Machine Learning Tutorial
+### Exercise 3: Machine Learning Tutorial
 1. What is in the training set, how big is it?
    As the data set we use the kinase.csv file provided by the course coordinators. This is split up into 70% training and 30% test data. Resulting in a training set containing 125878 rows of 3 columns. Its job is to provide data which the model can use to establish a connection between a certain MAAC fingerprint and the IC50 values.
 
@@ -69,7 +69,7 @@
    [15] Before the visualizations, the IC50 values on the test data has to be predicted
    [16] Visualize the predictions by plotting the predicted against the true IC50 values on the test set. This gives you all the needed information for this dataset.
 
-Exercise 5:
+### Exercise 5:
    1. UBELIX is an HPC cluster that currently consists of about 320 compute nodes featuring round about 12k CPU cores and 160 GPUs and a software defined storage infrastructure providing about 3.5 PB of disk storage net. 
       UBELIX is a heterogenous cluster, meaning UBELIX consists of different generations of compute nodes with different instruction sets. 
    2. You have to request it on from the Universitiy and then get access from the Unibern. Getting access takes one day and you have to use it on your powershell. You need to be on the network of the University. 
